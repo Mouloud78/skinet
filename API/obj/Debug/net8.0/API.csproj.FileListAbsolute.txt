@@ -5,16 +5,11 @@ F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\API.de
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\API.runtimeconfig.json
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\API.dll
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\API.pdb
-F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\Microsoft.OpenApi.dll
-F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.AssemblyInfo.cs
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
-F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.sourcelink.json
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\staticwebassets.build.json
@@ -25,7 +20,6 @@ F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\static
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\staticwebassets.pack.json
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
-F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.csproj.CopyComplete
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.dll
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\refint\API.dll
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.pdb
@@ -126,3 +120,8 @@ F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\ru\Mic
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\Core.dll
+F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\Infrastructure.dll
+F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\Infrastructure.pdb
+F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\bin\Debug\net8.0\Core.pdb
+F:\Developpement\3-Full stack\2-DotNetAngular\skinet\API\obj\Debug\net8.0\API.csproj.Up2Date
