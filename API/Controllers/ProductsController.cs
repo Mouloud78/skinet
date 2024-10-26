@@ -19,7 +19,7 @@ namespace API.Controllers
                                                                             string? sort)
         {
             var spec = new ProductSpecification(brand, type, sort);
-            var products = await repo.ListAllAsync(spec);
+            var products = await repo.ListAsync(spec);
             return Ok(products);
         }
 
@@ -70,13 +70,15 @@ namespace API.Controllers
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
         {
-            return Ok();
+            var spec = new BrandListSpecifiction();
+            return Ok(await repo.ListAsync(spec));
         }
 
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
         {
-            return Ok();
+            var spec = new TypeListSpecification();
+            return Ok(await repo.ListAsync(spec));
         }
 
         private bool ProducExists(int id)
