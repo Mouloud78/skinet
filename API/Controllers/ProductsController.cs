@@ -14,11 +14,10 @@ namespace API.Controllers
     {
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? brand,
-                                                                            string? type,
-                                                                            string? sort)
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(
+                    [FromQuery] ProductSpecParams specParams)
         {
-            var spec = new ProductSpecification(brand, type, sort);
+            var spec = new ProductSpecification(specParams);
             var products = await repo.ListAsync(spec);
             return Ok(products);
         }
@@ -45,7 +44,7 @@ namespace API.Controllers
         [HttpPut("{id:int}")]
         public async Task<ActionResult> UpdateProduct(int id, Product product)
         {
-            if (product.Id != id || !ProducExists(id)) return BadRequest("Canot update this product");
+            if (product.Id != id || !ProductExists(id)) return BadRequest("Canot update this product");
             repo.Update(product);
             if (await repo.SaveAllAsync())
             {
@@ -81,7 +80,7 @@ namespace API.Controllers
             return Ok(await repo.ListAsync(spec));
         }
 
-        private bool ProducExists(int id)
+        private bool ProductExists(int id)
         {
             return repo.Exist(id);
         }
