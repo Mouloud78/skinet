@@ -18,7 +18,7 @@ namespace API.Controllers
                                                                             string? type,
                                                                             string? sort)
         {
-            var spec = new ProductSpecification(brand, type);
+            var spec = new ProductSpecification(brand, type, sort);
             var products = await repo.ListAllAsync(spec);
             return Ok(products);
         }
